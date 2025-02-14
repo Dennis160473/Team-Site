@@ -34,7 +34,7 @@ body {
     margin-right: 30px;
 }
 .Content {
-    background-color: red;
+    background-color: aquamarine;
     width: 100vw;
     height: 70px;
     box-sizing: border-box;
@@ -44,7 +44,7 @@ body {
     display: flex;
 }
 .Footer {
-    background-color: red;
+    background-color: green;
     width: 100vw;
     height: 70px;
     box-sizing: border-box;
