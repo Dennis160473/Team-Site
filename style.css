@@ -1,52 +1,72 @@
 body {
-    margin: 0;   
-}
-
-.navbar {
-    background-color: red;
+    margin: 0;
+  }
+  /* NAV-AREA START */
+  .Navigation {
     width: 100vw;
-    height: 70px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    padding: 4px 16px;
     box-sizing: border-box;
-    padding: 16px;
+  }
+  
+  .NavArea {
+    flex: 1;
+    height: 100%;
+    display: flex;
+  }
+  
+  .frame1 {
+    background-color: yellow;
+    align-items: center;
+  }
+  .LogoImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+  }
+  .navBtn {
+    margin: 8px;
+    text-decoration: none;
+    &:hover {
+      color: red;
+      font-size: 20px;
+    }
+  }
+  .frame2 {
+    background-color: beige;
     justify-content: center;
     align-items: center;
-    display: flex;
-}
-.navArea {
-    display: flex;
-    flex: 1;
-    height: 100%;    
-}
-.navAreaOne {
-    background-color: cyan;
-    flex: 1;
-}
-.navAreaTwo {
-    background-color: brown;
-    flex: 1;
-}
-.navAreaThree {
-    background-color: burlywood;
-    flex: 1;
-}
-
-.Content {
-    background-color: aquamarine;
-    width: 100vw;
-    height: 70px;
+  }
+  .frame3 {
+    background-color: purple;
+  }
+  
+  /* NAV-AREA END */
+  
+/* Content START */
+.contentContainer {
+    width: 100%;
+    min-height: 50vh;
+    background-color: blue;
+    padding: 32px;
     box-sizing: border-box;
-    padding: 16px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.Footer {
+  }
+  /* Content END */
+  
+  /* Footer START */
+  .footerContainer {
+    height: 200px;
+    width: 100%;
     background-color: green;
-    width: 100vw;
-    height: 70px;
-    box-sizing: border-box;
     padding: 16px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+    box-sizing: border-box;
+  }
+  
+  /* Footer END */
+  
