@@ -14,7 +14,9 @@ body {
 }
 .navArea {
     width: 100%;
-    padding: 8px;    
+    padding: 8px;
+    justify-content: center;
+    align-items: center;    
 }
 .navAreaOne {
     background-color: cyan;
