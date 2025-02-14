@@ -31,28 +31,6 @@ body {
     flex: 1;
 }
 
-
-.logoTitle {
-    color: purple;
-    font-size: 18px;
-    background-color: white;
-    padding: 8px;
-    }
-.logo {
-    height: 30px;
-    width: 30px;
-    border-radius: 15px;
-    background-color: white;
-    margin-left: 8px;
-    justify-content: center;
-    align-items: center;
-}
-.logoImg {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    margin-right: 30px;
-}
 .Content {
     background-color: aquamarine;
     width: 100vw;
