@@ -2,7 +2,7 @@ body {
     margin: 0;
    
 }
-.navbar{
+.navbar {
     background-color: red;
     width: 100vw;
     height: 70px;
@@ -12,13 +12,13 @@ body {
     align-items: center;
     display: flex;
 }
-.logoTitle{
+.logoTitle {
     color: purple;
     font-size: 18px;
     background-color: white;
     padding: 8px;
     }
-.logo{
+.logo {
     height: 30px;
     width: 30px;
     border-radius: 15px;
@@ -27,9 +27,29 @@ body {
     justify-content: center;
     align-items: center;
 }
-.logoImg{
+.logoImg {
     height: 100%;
     width: 100%;
     object-fit: cover;
     margin-right: 30px;
+}
+.Content {
+    background-color: red;
+    width: 100vw;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Footer {
+    background-color: red;
+    width: 100vw;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
