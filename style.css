@@ -50,7 +50,7 @@ body {
   /* NAV-AREA END */
   
 /* Content START */
-.contentContainer {
+.Content {
     width: 100%;
     min-height: 50vh;
     background-color: blue;
@@ -60,7 +60,7 @@ body {
   /* Content END */
   
   /* Footer START */
-  .footerContainer {
+  .Footer {
     height: 200px;
     width: 100%;
     background-color: green;
