@@ -12,6 +12,24 @@ body {
     align-items: center;
     display: flex;
 }
+.navArea {
+    width: 100%;
+    padding: 8px;    
+}
+.navAreaOne {
+    background-color: cyan;
+    flex: 1;
+}
+.navAreaTwo {
+    background-color: brown;
+    flex: 10;
+}
+.navAreaTwo {
+    background-color: burlywood;
+    flex: 1;
+}
+
+
 .logoTitle {
     color: purple;
     font-size: 18px;
