@@ -12,6 +12,7 @@ body {
   }
   
   .NavArea {
+    background-color: chartreuse;
     flex: 1;
     height: 100%;
     display: flex;
@@ -20,7 +21,6 @@ body {
   }
   
   .frame1 {
-    background-color: yellow;
     align-items: center;
   }
   .LogoImg {
@@ -41,12 +41,11 @@ body {
     }
   }
   .frame2 {
-    background-color: beige;
+
     justify-content: center;
     align-items: center;
   }
   .frame3 {
-    background-color: purple;
     justify-content: right;
     align-items: end;
   }
