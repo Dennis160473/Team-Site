@@ -74,6 +74,16 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .Content2 {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: blue;
+    padding: 32px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
   .TeamImg {
     width: 100%;
     max-height: 10vh;
@@ -82,7 +92,7 @@ body {
     justify-items: center;
     align-items: center;
   }
-  .Content {
+  .Content3 {
     display: flex;
     width: 100%;
     min-height: 100vh;
