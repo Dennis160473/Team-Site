@@ -48,7 +48,8 @@ body {
   .Team {
     &:hover {
       color: red;
-      font-size: 30px;    
+      font-size: 30px;
+    }   
   }
   .frame3 {
     justify-content: right;
@@ -66,7 +67,7 @@ body {
 /* Content START */
 .Content {
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     background-color: blue;
     padding: 32px;
     box-sizing: border-box;
