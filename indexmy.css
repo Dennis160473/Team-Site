@@ -1,6 +1,5 @@
 .homeText {
     font-size: 30px;
-    color: aqua;
-    justify-items: center;
-    align-items: center;
+    justify-items: left;
+    align-items: flex-start;
   }
