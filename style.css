@@ -21,7 +21,6 @@ body {
   }
   
   .frame1 {
-    flex: 1;
     align-items: center;
   }
   .LogoImg {
@@ -42,7 +41,6 @@ body {
     }
   }
   .frame2 {
-    flex: 5;
     justify-content: center;
     align-items: center;
   }
@@ -58,7 +56,6 @@ body {
     }   
   }
   .frame3 {
-    flex: 1;
     justify-content: right;
     align-items: end;
   }
