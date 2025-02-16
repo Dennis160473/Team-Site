@@ -49,6 +49,7 @@ body {
     background-color: purple;
   }
   .Tools {
+    border: 4px;
     border-color: black;
   }
   
