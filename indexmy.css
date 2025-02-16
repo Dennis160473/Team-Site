@@ -1,5 +1,6 @@
 .homeText {
     font-size: 30px;
     color: aqua;
+    justify-items: center;
     align-items: center;
   }
