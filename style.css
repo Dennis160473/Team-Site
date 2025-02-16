@@ -81,6 +81,13 @@ body {
     word-spacing: 10px;
     padding-right: 10px;
   }
+  .TeamImg2 {
+    width: 100%;
+    max-height: 10vh;
+    border-radius: 10px;
+    word-spacing: 10px;
+    padding-right: 10px;
+  }
   /* Content END */
   
   /* Footer START */
