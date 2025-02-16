@@ -44,11 +44,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .TeamImg {
-    width: 5px;
-    height: 5px;
-    border-radius: 10px;
-  }
   .Team {
     &:hover {
       color: red;
@@ -77,6 +72,11 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+  }
+  .TeamImg {
+    width: 100%;
+    max-height: 10vh;
+    border-radius: 10px;
   }
   /* Content END */
   
