@@ -45,6 +45,11 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .Team {
+    &:hover {
+      color: red;
+      font-size: 30px;    
+  }
   .frame3 {
     justify-content: right;
     align-items: end;
