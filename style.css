@@ -21,6 +21,7 @@ body {
   }
   
   .frame1 {
+    flex: 1;
     align-items: center;
   }
   .LogoImg {
@@ -41,14 +42,14 @@ body {
     }
   }
   .frame2 {
-
+    flex: 5;
     justify-content: center;
     align-items: center;
   }
   .TeamImg {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
   }
   .Team {
     &:hover {
@@ -57,6 +58,7 @@ body {
     }   
   }
   .frame3 {
+    flex: 1;
     justify-content: right;
     align-items: end;
   }
