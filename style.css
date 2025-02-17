@@ -64,26 +64,26 @@ body {
   /* NAV-AREA END */
   
 /* Content START */
-#wrapper {
+.wrapper {
   width: 610px;
   margin: 0 auto;
   }
   
-  #leftCol {
+.leftCol {
   float: left;
   width: 200px;
   }
   
-  #centerCol {
+.centerCol {
   margin: 0 205px;
   }
   
-  #rightCol {
+.rightCol {
   float: right;
   width: 200px;
   }
   
-  .box {
+.box {
   border: 1px solid #000;
   margin-bottom: 5px;
   text-align: center;
