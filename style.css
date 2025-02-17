@@ -64,49 +64,8 @@ body {
   /* NAV-AREA END */
   
 /* Content START */
-.Content {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    padding: 32px;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-  }
-  .Content1 {
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .homeText {
-    font-size: 30px;
-    justify-items: center;
-    align-items: center;
-  }
 
-  .Content2 {
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .TeamImg {
-    width: 100%;
-    height: 40%;
-    word-spacing: 2px;
-    padding-right: 2px;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .Content2 {
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .TeamImg2 {
-    width: 100%;
-    max-height: 10vh;
-    word-spacing: 2px;
-    padding-right: 2px;
-  }
+  
   /* Content END */
   
   /* Footer START */
