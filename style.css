@@ -88,7 +88,11 @@ body {
   margin-bottom: 5px;
   text-align: center;
   }
-  
+ .text1 {
+  justify-items: center;
+  align-items: center;
+  min-height: 2vh;
+ } 
   /* Content END */
   
   /* Footer START */
