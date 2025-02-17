@@ -64,7 +64,30 @@ body {
   /* NAV-AREA END */
   
 /* Content START */
-
+#wrapper {
+  width: 610px;
+  margin: 0 auto;
+  }
+  
+  #leftCol {
+  float: left;
+  width: 200px;
+  }
+  
+  #centerCol {
+  margin: 0 205px;
+  }
+  
+  #rightCol {
+  float: right;
+  width: 200px;
+  }
+  
+  .box {
+  border: 1px solid #000;
+  margin-bottom: 5px;
+  text-align: center;
+  }
   
   /* Content END */
   
