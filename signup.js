@@ -20,4 +20,22 @@ function onClickButton() {
     const userfirstnameti = document.getElementById('firstnameti').value;
     const userlastnameti = document.getElementById('lastnameti').value;
     const userrepeatpasswordti = document.getElementById('repeatpasswordti').value;
-  }
+
+    if (useremailti.length >= 3) {
+        if (userpasswordti === userrepeatpasswordti) {
+            if (userfirstname && userlastname !== undefined) {
+                alert('User wurde erfolgreich erstellt!\n
+                    Email: ${useremailti}\n
+                    Passwort: ${userpasswordti}\n
+                    Vorname: ${userfirstnameti}\n
+                    Nachname: ${userlastnameti}\n')
+                } else {
+                    alert('Du hast nicht alle Felder korrekt ausgefüllt!')
+                }
+            } else {
+                alert('Das Passwort stimmt nicht überein!')
+            }
+        } else {
+            alert('Die E-Mail muss mindestens 3 Zeichen lang sein!')
+        }
+    }
