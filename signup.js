@@ -14,3 +14,10 @@ function onClickButton() {
       `Der Benutzer hat sich erfolgreich mit ${emailTI} und ${password} angemeldet`
     );
   }
+  function userSignUp() {
+    const useremailti = document.getElementById('emailti').value;
+    const userpasswordti = document.getElementById('passwordti').value;
+    const userfirstnameti = document.getElementById('firstnameti').value;
+    const userlastnameti = document.getElementById('lastnameti').value;
+    const userrepeatpasswordti = document.getElementById('repeatpasswordti').value;
+  }
