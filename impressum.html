@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="impressum.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Dart Verein</title>
 </head>
 
@@ -14,6 +14,7 @@
       <a href="index.html">
         <img src="./images/dartlogo.webp" class="LogoImg" />
       </a>
+      <a class="navBtn" href="index.html">Homepage</a>
       <a class="navBtn" href="impressum.html"><h5>To Impressum</h5></a>
       <a class="navBtn" href="LogIn.html"><h5>To LogIn</h5></a>
       <a class="navBtn" href="signup.html"><h5>To SignUp</h5></a>
@@ -22,14 +23,20 @@
           <div class="Team"><h1>Die Glühwürmer</h1></div>
     </div>
     <div class="NavArea frame3">
-    <div class="Tools"><h2>Search DSAB Help Contact</h2></div>
+      <div class="Tools"><h2>Search DSAB Help Contact</h2></div>
      </div>
-     <div class="box">Inhalte</div>
-     <div class="box">Inhalte</div>
   </div>
-      <div class="Footer">
-        <div class="homeText">Impressum und Firmenlogo</div>
-      </div>    
+
+  <h1>Login</h1>
+  <div id="box">Hallo!</div>
+  <input id="emailti" placeholder="Enter E-Mail" /><br>
+  <input id="passwordti" placeholder="Enter password" /><br>
+  <input id="firstnameti" placeholder="Enter firstname" /><br>
+  <input id="lastnameti" placeholder="Enter lastname" /><br>
+  <button onclick="onLogin()">Login</button>
+  <div class="Footer">
+      <div class="homeText">Impressum und Firmenlogo</div>
+  </div>    
     
 </body>
 </html>
