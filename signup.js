@@ -14,6 +14,7 @@ function onClickButton() {
       `Der Benutzer hat sich erfolgreich mit ${emailTI} und ${password} angemeldet`
     );
   }
+  
   function userSignUp() {
     const useremailti = document.getElementById('emailti').value;
     const userpasswordti = document.getElementById('passwordti').value;
@@ -23,12 +24,12 @@ function onClickButton() {
 
     if (useremailti.length >= 3) {
         if (userpasswordti === userrepeatpasswordti) {
-            if (userfirstname && userlastname !== undefined) {
-                alert('User wurde erfolgreich erstellt!\n
+            if (userfirstnameti && userlastnameti !== undefined) {
+                alert(`User wurde erfolgreich erstellt!\n
                     Email: ${useremailti}\n
                     Passwort: ${userpasswordti}\n
                     Vorname: ${userfirstnameti}\n
-                    Nachname: ${userlastnameti}\n')
+                    Nachname: ${userlastnameti}\n`)
                 } else {
                     alert('Du hast nicht alle Felder korrekt ausgefüllt!')
                 }
