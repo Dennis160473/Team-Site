@@ -53,6 +53,7 @@ body {
   .frame3 {
     justify-content: right;
     align-items: end;
+    display: flex;
   }
   .Tools {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -22,7 +22,7 @@ function onClickButton() {
     const userlastnameti = document.getElementById('lastnameti').value;
     const userrepeatpasswordti = document.getElementById('repeatpasswordti').value;
 
-    if (useremailti && userpasswordti && userfirstnameti && userlastnameti && userrepeatpasswordti) {}
+    if (useremailti && userpasswordti && userfirstnameti && userlastnameti && userrepeatpasswordti) {
         if (useremailti.length >= 3) {
             if (userpasswordti === userrepeatpasswordti) {
                 alert(`User wurde erfolgreich erstellt!\n
@@ -37,5 +37,7 @@ function onClickButton() {
                 alert('Das Passwort stimmt nicht überein!')
             }
         } else {
-                alert('Die E-Mail muss mindestens 3 Zeichen lang sein!')
+            alert('Die E-Mail muss mindestens 3 Zeichen lang sein!')
             }
+        }
+
