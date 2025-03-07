@@ -1,13 +1,15 @@
 body {
-    margin: 0;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
   /* NAV-AREA START */
   .Navigation {
     width: 100vw;
     height: 60px;
     background-color: black;
-    display: flex;
-    
+    display: flex;    
     box-sizing: border-box;
   }
   
@@ -33,11 +35,11 @@ body {
     display: flex;
   }
   .navBtn {
-    margin: 8px;
+    margin: 20px;
     text-decoration: none;
     &:hover {
       color: red;
-      font-size: 30px;
+      font-size: 20px;
     }
   }
   .frame2 {
@@ -51,49 +53,52 @@ body {
     }   
   }
   .frame3 {
-    justify-content: right;
-    align-items: end;
-    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .Tools {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
-    word-spacing: 40px;
-    padding-right: 40px;
+    word-spacing: 60px;
+    padding-right: 20px;
   }
   
   /* NAV-AREA END */
   
 /* Content START */
-.wrapper {
-  width: 610px;
-  margin: 0 auto;
+
+  .ContentContainer {
+    width: 100vw;
+    height: 60px;
+    background-color: white;
+    display: flex;    
+    box-sizing: border-box;
   }
-  
-.leftCol {
-  float: left;
-  width: 200px;
+  .box1 {
+    width: 100%;
+    display: flex;
+    background-color: bisque;
   }
-  
-.centerCol {
-  margin: 0 205px;
+  .box2 {
+    width: 100%;
+    display: flex;
   }
-  
-.rightCol {
-  float: right;
-  width: 200px;
+
+  .text1 {
+    min-height: 1vh;
+    box-sizing: border-box;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
   }
-  
-.box {
-  border: 1px solid #000;
-  margin-bottom: 5px;
-  text-align: center;
+  .images{
+    justify-items: center;
+    align-items: center;
+    min-height: 2vh;
   }
- .text1 {
-  justify-items: center;
-  align-items: center;
-  min-height: 2vh;
- } 
+
+
+
+   
   /* Content END */
   
   /* Footer START */
