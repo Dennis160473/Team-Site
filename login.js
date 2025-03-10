@@ -29,6 +29,20 @@ let filtered_list = my_ages_new.filter((elem) => elem > 2)
 
 console.log(filtered_list)
 // Map des Arrays
-let mapped_list = my_ages_new.map((elem) => elem > 2)
+let mapped_list = my_ages_new.map((elem) => `<p>${elem}</p>`)
 
 console.log(mapped_list)
+
+let stringMappedList = mapped_list.toString().replaceAll(",","")
+console.log(stringMappedList)
+// neue Liste anlegen und ausgeben
+function createHTMLList(liste){
+
+  let htmlElements = liste.map((listItem) => `<li>${listItem}</li>`)
+  //console.log(htmlElements)
+  let flattenedList = htmlElements.join("")
+  //console.log(flattenedList)
+  let ergebnis = `<ul>${flattenedList}</ul>`
+  return ergebnis
+}
+
