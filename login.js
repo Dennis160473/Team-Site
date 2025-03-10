@@ -17,9 +17,18 @@ let spliced_list = mylist.splice(1, 1)
 console.log(mylist)
 console.log(spliced_list)
 // filtern des Arrays
-const ages = [32, 33, 16, 40];
-const result = ages.filter(checkAdult);
+const my_ages = [32, 33, 16, 40];
+const result = my_ages.filter(checkAdult);
 
 function checkAdult(age) {
   return age >= 18;
 }
+// Alternative
+my_ages_new = [17, 16, 4, 19, 73, 23, 5, 74]
+let filtered_list = my_ages_new.filter((elem) => elem > 2)
+
+console.log(filtered_list)
+// Map des Arrays
+let mapped_list = my_ages_new.map((elem) => elem > 2)
+
+console.log(mapped_list)
