@@ -9,7 +9,7 @@ function createHTMLList(liste){
     return ergebnis
   }
 // Alternative
-let my_list = ["Lukas", "Kevin", "Suheib"]
+let my_list = ["Andrè", "Dennis", "Hans-Jürgen"]
 
 function createHTMLList(liste){
 
