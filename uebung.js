@@ -58,10 +58,12 @@ function addItem() {
     setListContent()
 }
 // Löschen des Elementes
-function deleteItem()
-let lastElement = my_list.pop();
+function deleteItem(){
+    let lastElement = my_list.pop();
+    my_list = textList(lastElement)
 
-return lastElement
+setListContent()
+}
 //
 
 
