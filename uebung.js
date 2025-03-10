@@ -30,9 +30,11 @@ function setUserInputList(){
     let userInput = document.getElementById("UserInput")
     let text = userInput.value
     let textList = text.split(",")
-    my_list = textList
+    my_list = my_list.concat(textList)
     setListContent()
 }
+
+
 
 
 
