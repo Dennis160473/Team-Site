@@ -29,10 +29,9 @@ function setListContent(){
 function setUserInputList(){
     let userInput = document.getElementById("UserInput")
     let text = userInput.value
-    let listDiv = document.getElementById("liste")
     let textList = text.split(",")
-    let content = createHTMLList(textList)
-    listDiv.innerHTML = content
+    my_list = textList
+    setListContent()
 }
 
 
