@@ -4,3 +4,6 @@ function onLogin() {
     
     alert(`Der Benutzer hat sich erfolgreich mit ${emailTI} und ${password} angemeldet`);
   }
+let mylist = [Andrè, Dennis, Hans-Jürgen, Karsten]
+
+let spliced_list = mylist.splice()
