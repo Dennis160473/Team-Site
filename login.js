@@ -11,11 +11,16 @@ function remove_second_element(liste){
 let mylist = [1, 2, 3, 4, 5]
 let deleted_element = remove_second_element(mylist)
 
-
-
-
 // Alternative
 let spliced_list = mylist.splice(1, 1)
 
 console.log(mylist)
 console.log(spliced_list)
+
+// filtern des Arrays
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+
+function checkAdult(age) {
+  return age >= 18;
+}
