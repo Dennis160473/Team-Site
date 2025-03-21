@@ -1,114 +1,37 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
+  display: grid;
+  gap: 0.5em;
 }
 
-  /* NAV-AREA START */
-  .Navigation {
-    width: 100vw;
-    height: 60px;
-    background-color: black;
-    display: flex;    
-    box-sizing: border-box;
-  }
-  
-  .NavArea {
-    background-color: chartreuse;
-    flex: 1;
-    height: 100%;
-    display: flex;
-    padding: 12px;
-    border: 12px;
-  }
-  
-  .frame1 {
-    align-items: center;
-  }
-  .LogoImg {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-  }
-  a {
-    text-decoration: none;
-    display: flex;
-  }
-  .navBtn {
-    margin: 20px;
-    text-decoration: none;
-    &:hover {
-      color: red;
-      font-size: 20px;
-    }
-  }
-  .frame2 {
-    justify-content: center;
-    align-items: center;
-  }
-  .Team {
-    &:hover {
-      color: red;
-      font-size: 30px;
-    }   
-  }
-  .frame3 {
-    justify-content: center;
-    align-items: center;
-  }
-  .Tools {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
-    word-spacing: 60px;
-    padding-right: 20px;
-  }
-  
-  /* NAV-AREA END */
-  
-/* Content START */
+/* 3-spaltiges Layout für breitere Viewports */
+body {
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto 1fr min-content;
+}
 
-  .ContentContainer {
-    width: 100vw;
-    height: 60px;
-    background-color: white;
-    display: flex;    
-    box-sizing: border-box;
-  }
-  .box1 {
-    width: 100%;
-    display: flex;
-    background-color: bisque;
-  }
-  .box2 {
-    width: 100%;
-    display: flex;
-  }
-
-  .text1 {
-    min-height: 1vh;
-    box-sizing: border-box;
-    text-decoration-line: underline;
-    text-decoration-color: blue;
-  }
-  .images{
-    justify-items: center;
-    align-items: center;
-    min-height: 2vh;
-  }
-
-
-
-   
-  /* Content END */
-  
-  /* Footer START */
-  .Footer {
-    height: 200px;
-    width: 100%;
-    background-color: green;
-    padding: 16px;
-    box-sizing: border-box;
-  }
-  
-  /* Footer END */
-  
+header {
+  background-color: yellow;
+  grid-column: 1 / -1;
+}
+footer {
+  background-color: blue;
+  grid-column: 1 / -1;
+}
+.layout {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  border-style: solid;
+}
+.flex1 {
+  display: grid;
+  grid-template-columns: 1 / 3;
+  background-color: red;
+  border-style: solid;
+}
+.flex2 {
+  display: grid;
+  grid-template-columns: 1 / 3;
+  background-color: green;
+  border-style: solid;
+}
