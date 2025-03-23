@@ -1,37 +1,55 @@
 body {
+  background-color: black;
+  margin: 0;
+}
+.grid-container {
+  width: 100vw;
+  height: 100vh;
   display: grid;
-  gap: 0.5em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
-
-/* 3-spaltiges Layout für breitere Viewports */
-body {
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: auto 1fr min-content;
+.item-1 {
+  grid-column: 1 / 4;
+  background-color: aqua;
 }
-
-header {
-  background-color: yellow;
-  grid-column: 1 / -1;
+.item-2 {
+  display: grid;
+  grid-column: 1 / 2;
+  background-color: azure;
 }
-footer {
+.item-3 {
+  display: grid;
+  grid-column: 2 / 3;
   background-color: blue;
-  grid-column: 1 / -1;
 }
-.layout {
+.item-4 {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  border-style: solid;
+  grid-column: 3 / 4;
+  background-color: blueviolet;
 }
-.flex1 {
+.item-5 {
   display: grid;
-  grid-template-columns: 1 / 3;
-  background-color: red;
-  border-style: solid;
+  grid-column: 1 / 2;
+  background-color: yellow;
 }
-.flex2 {
+.item-6 {
   display: grid;
-  grid-template-columns: 1 / 3;
+  grid-column: 2 / 3;
   background-color: green;
-  border-style: solid;
+}
+.item-7 {
+  display: grid;
+  grid-column: 3 / 4;
+  background-color: brown;
+}
+.item-8 {
+  display: grid;
+  grid-column: 1 / 4;
+  background-color: cyan;
+}
+.item-9 {
+  display: grid;
+  grid-column: 1 / 4;
+  background-color: red;
 }
